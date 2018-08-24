@@ -1,0 +1,8 @@
+<div *ngFor="let item of nav">
+    <button (click)='listClick(item)'>{{item.id}}</button>
+    <span>{{item.name}}</span>
+</div>
+<label for="">id:</label>
+<input type="text" #id>
+<label for="">name:</label>
+<input type="text" #name>
